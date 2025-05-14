@@ -7,5 +7,7 @@ The tape format: _ _ a + b _ _ where the underscore denotes the tape boundaries.
 is subject to change depending on the magnitude of the numbers being added.
 
 To compile and run:
+
 g++ -std=c++17 turing_vm.cpp -o turing_vm
+
 ./turing_vm < test.txt
